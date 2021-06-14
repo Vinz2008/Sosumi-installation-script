@@ -14,9 +14,7 @@ sosumi
 cd /home/vincent/snap/sosumi/common/
 
 filename="launch"
-echo "enter -m 2G"
 read -p "-m 2G \: " search
-echp "enter -m 6G"
 read -p "-m 6G \: " replace
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/" $filename
