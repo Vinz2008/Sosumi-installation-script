@@ -7,6 +7,8 @@ Legal informations : Sosumi is ONLY legal if it is used on a REAL MAC. So don't 
 Sorry for my bad english, I'm french.  
 
 
+
+
 FRANÇAIS:  
 C'est un script pour installer Sosumi.  
 Sosumi github : https://github.com/popey/sosumi-snap  
