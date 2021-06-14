@@ -1,5 +1,5 @@
 # Sosumi-installation-script
-ENGLISH
+ENGLISH:
 This is a Sosumi installation script
 Sosumi github : https://github.com/popey/sosumi-snap
 This script is created by Vincent Bidard de la Noë.
@@ -7,7 +7,7 @@ Legal informations : Sosumi is ONLY legal if it is used on a REAL MAC. So don't 
 Sorry for my bad english, I'm french.
 
 
-FRANÇAIS
+FRANÇAIS:
 C'est un script pour installer Sosumi.
 Sosumi github : https://github.com/popey/sosumi-snap
 Ce script est créé par Vincent Bidard de la Noë.
