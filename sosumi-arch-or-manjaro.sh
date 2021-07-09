@@ -11,7 +11,7 @@ sudo snap install sosumi
 sudo snap connect sosumi:kvm
 sosumi
 
-cd /home/vincent/snap/sosumi/common/
+cd ~/snap/sosumi/common/
 
 filename="launch"
 read -p "-m 2G \: " search
