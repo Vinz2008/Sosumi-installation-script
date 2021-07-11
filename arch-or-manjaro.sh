@@ -19,4 +19,5 @@ read -p "-m 6G \: " replace
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/" $filename
 fi
+sosumi
 
