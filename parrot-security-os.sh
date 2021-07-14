@@ -8,6 +8,8 @@ sudo apt install snapd
 sudo systemctl enable --now snapd.socket
 sudo snap install sosumi
 sudo snap connect sosumi:kvm
+echo "You will now need to close the window that the script open'
+
 sosumi
  
 cd ~/snap/sosumi/common/
