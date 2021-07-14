@@ -1,6 +1,8 @@
 # Sosumi-installation-script
 ENGLISH:
 This is a Sosumi installation script  
+Sosumi is a snap package based on macos-simple-kvm.
+It uses qemu and kvm. The script may need systemd and bash.
 Sosumi github : https://github.com/popey/sosumi-snap  
 This script is created by Vincent Bidard de la Noë.  
 YOU NEED TO CLOSE THE WINDOW THAT THE SCRIPT OPEN FOR THE SCRIPT TO WORK PROPERLY.AFTER IT WILL REOPEN.
@@ -13,6 +15,8 @@ Sorry for my bad english, I'm french.
   
 FRANÇAIS:  
 C'est un script pour installer Sosumi.  
+Sosumi est un packet snap basé sur macos-simple-kvm.
+Il utilise qemu et kvm. Le script a besoin de bash et de systemd.
 Sosumi github : https://github.com/popey/sosumi-snap  
 Ce script est créé par Vincent Bidard de la Noë.  
 VOUS DEVEZ FERMER LA FENÊTRE QUE LE SCRIPT OUVRE POUR QUE LE SCRIPT MARCHE. APRÈS ELE SE RÉOUVRIRA.
