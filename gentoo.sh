@@ -10,7 +10,11 @@ systemctl enable --now snapd.apparmor
 sudo snap install sosumi
 sudo snap connect sosumi:kvm
 echo "You will now need to close the window that the script open'
-
+read -p "Have you understood ? (y/n) "  answer
+if [ $answer  = "n" ]
+then
+        exit
+fi
 sosumi
  
 cd ~/snap/sosumi/common/
