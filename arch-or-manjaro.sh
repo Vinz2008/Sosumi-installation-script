@@ -10,7 +10,7 @@ sudo systemctl enable --now snapd.socket
 sudo snap install sosumi
 sudo snap connect sosumi:kvm
 echo "You will now need to close the window that the script open'
-read -p "Have you understood ? (y/n) "  answer
+read -p "Have you understood ? (y/n)"  answer
 if [ $answer  = "n" ]
 then
         exit
