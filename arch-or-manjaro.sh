@@ -20,9 +20,10 @@ sosumi
 
 cd ~/snap/sosumi/common/
 
+
 filename="launch"
-read -p "-m 2G \: " search
-read -p "-m 6G \: " replace
+search="2G"
+replace='6G'
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/" $filename
 fi
