@@ -11,7 +11,7 @@ sudo systemctl enable --now snapd
 sudo snap install sosumi
 sudo snap connect sosumi:kvm
 echo "You will now need to close the window that the script open'
-read -p "Have you understood ? (y/n) "  answer
+read -p 'Have you understood ? (y/n) '  answer
 if [ $answer  = "n" ]
 then
         exit
@@ -21,8 +21,8 @@ sosumi
 cd ~/snap/sosumi/common/
  
 filename="launch"
-read -p "-m 2G \: " search
-read -p "-m 6G \: " replace
+search="2G"
+replace='6G'
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/" $filename
 fi
